@@ -1,6 +1,4 @@
-[submodule "src/src/main/resources/mapping_config"]
-	path = src/src/main/resources/mapping_config
-	url = git@github.com:SevKohler/OMOCL.git
 [submodule "src/main/resources/mapping_config"]
 	path = src/main/resources/mapping_config
 	url = git@github.com:SevKohler/OMOCL.git
+	branch = main
