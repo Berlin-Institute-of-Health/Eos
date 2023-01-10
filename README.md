@@ -127,22 +127,7 @@ $ mvn clean install
 We currently support CDM v5.4, if more tooling is provided v6 will be added in the future.
 
 ### implemented Mappings
-
-| Archetype                                                                       | config                                                                                                                                                 |
-|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Body height v2](https://ckm.openehr.org/ckm/archetypes/1013.1.3210)            | [Body height](https://github.com/SevKohler/openehr-omop-bridge/blob/master/src/main/resources/mapping_config/Body_height_v2.yml)                       |
-| [Blood pressure v2](https://ckm.openehr.org/ckm/archetypes/1013.1.3574)         | [blood pressure](https://github.com/SevKohler/openehr-omop-bridge/blob/master/src/main/resources/mapping_config/Blood_pressure_v2.yml)                 |
-| [Body temperature v2](https://ckm.openehr.org/ckm/archetypes/1013.1.2796)       | [body temperature](https://github.com/SevKohler/openehr-omop-bridge/blob/master/src/main/resources/mapping_config/Body_temperature_v2.yml)             |
-| [Body weight v2](https://ckm.openehr.org/ckm/archetypes/1013.1.2960)            | [Body weight](https://github.com/SevKohler/openehr-omop-bridge/blob/master/src/main/resources/mapping_config/Body_weight_v2.yml)                       |
-| [Clinical frailty scale v1](https://ckm.openehr.org/ckm/archetypes/1013.1.4691) | [clinical frailty scale](https://github.com/SevKohler/openehr-omop-bridge/blob/master/src/main/resources/mapping_config/Clinical_frailty_scale_v1.yml) |
-| [Laboratory test result_v1](https://ckm.openehr.org/ckm/archetypes/1013.1.2191) | [lab result](https://github.com/SevKohler/openehr-omop-bridge/blob/master/src/main/resources/mapping_config/Laboratory_test_result_v1.yml)             |
-| [Medication order v2](https://ckm.highmed.org/ckm/archetypes/1246.145.1048)     | [medication order](https://github.com/SevKohler/openehr-omop-bridge/blob/master/src/main/resources/mapping_config/Medication_order_v2.yml)             |
-| [Medication statement v0](https://ckm.openehr.org/ckm/archetypes/1013.1.4949)   | [medication statement](https://github.com/SevKohler/openehr-omop-bridge/blob/master/src/main/resources/mapping_config/Medication_statement_v0.yml)     |
-| [Medication v1](https://ckm.openehr.org/ckm/archetypes/1013.1.123)              | [medication](https://github.com/SevKohler/openehr-omop-bridge/blob/master/src/main/resources/mapping_config/Medication_v1.yml)                         |
-| [Problem diagnose v1](https://ckm.openehr.org/ckm/archetypes/1013.1.169)        | [problem diagnose](https://github.com/SevKohler/openehr-omop-bridge/blob/master/src/main/resources/mapping_config/Problem_diagnosis_v1.yml)            |
-| [Procedure v1](https://ckm.openehr.org/ckm/archetypes/1013.1.204)               | [procedure](https://github.com/SevKohler/openehr-omop-bridge/blob/master/src/main/resources/mapping_config/Procedure_v1.ymls)                          |
-| [Pulse v2](https://ckm.highmed.org/ckm/templates/1246.169.1037)                 | [pulse](https://github.com/SevKohler/openehr-omop-bridge/blob/master/src/main/resources/mapping_config/Pulse_v2.yml)                                   |
-| [Respiration v2](https://ckm.openehr.org/ckm/archetypes/1013.1.4218)            | [respiration](https://github.com/SevKohler/openehr-omop-bridge/blob/master/src/main/resources/mapping_config/Respiration_v2.yml)                       |
+See [here](https://github.com/SevKohler/OMOCL)
 
 ### Usable with declarative mappings
 
