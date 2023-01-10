@@ -9,3 +9,7 @@ Eos is the result of a research project. To support our research, please cite on
 PAPER
 
 Thanks!
+
+Setup
+===
+git clone --recursive 
