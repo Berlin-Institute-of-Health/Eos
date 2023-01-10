@@ -1,4 +1,7 @@
-# Compiled class file
+# Default ignored files
+/shelf/
+.idea/
+
 *.class
 
 # Log file
@@ -21,3 +24,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# End of https://www.toptal.com/developers/gitignore/api/java
+.classpath
+.project
+.settings/
+target/
+logs/
+setup/vocab
