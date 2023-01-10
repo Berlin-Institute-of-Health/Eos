@@ -10,10 +10,6 @@ PAPER
 
 Thanks!
 
-Application that takes openEHR compositions and convert them to OMOP. Can be connected to an openEHR platform in order
-to map values out depending on the EHR. This is done by populating an OMOP postgres DB. DDLs to create the postgres DB
-are from the OHDSI github to ensure OMOP compability.
-
 ## Setup
 
 ### Prerequisites
@@ -26,7 +22,7 @@ are from the OHDSI github to ensure OMOP compability.
 
 ### Setting up an OMOP Db and connect it to an openEHR platform
 
-1. clone repo
+1. clone repo `git clone --recursive`
 2. Use Common Data model sqls from `setup/ddls/` or download
    them [here](https://github.com/OHDSI/CommonDataModel/tree/master/inst/ddl/5.4/postgresql). If downloaded: Delete all
    @cdmDatabaseSchema in every file and the version number in the file name (e.g. OMOPCDM_postgresql_5.4_ddl.sql ->  OMOPCDM_postgresql_ddl.sql)
@@ -179,3 +175,7 @@ DISCLAIMER:
 - Dv_Proportion only type 2 is supported for unit due to lack of sample data. If samples are provided this can be added.
 - CustomConverters are not supported for Person Conversions
 - range low range high and operator will map normal range and magnitude status if DV Quantity is provided and NOT magnitude.
+
+Special thanks
+---
+We thank the Georgia Tech Research Institute for providing jpa classes for OMOP and vita systems for their free accessible openEHR tooling.
